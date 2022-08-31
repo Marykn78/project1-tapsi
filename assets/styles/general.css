@@ -1,0 +1,17 @@
+@font-face {
+    font-family: dana;
+    src: url(../fonts/dana-regular.woff2);
+}
+:root{
+    --color--orange:#ff5722;
+    --color--white:#ffffff;
+    --primary--textcolor:#000;
+    --color--text--content:#4d4d4d;
+    --color--border--bottom:#ddd;
+    --color--background--header:#F8F8F8;
+    --xlarge-fontsize:3.5rem;
+    --large-fontsize:2.4rem;
+    --mid--fontsize:1.8rem;
+    --medium-fontsize:1.4rem;
+    --small-fonsize:1.2rem;
+}
