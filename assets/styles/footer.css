@@ -1,0 +1,97 @@
+.footer{
+    font-family: dana;
+    font-size: 14px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_container h6{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.brand_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    margin-left: 20px;
+    width: 15%;
+}
+
+.brand_container h3{
+    font-size: 12px;
+    color: #acacac;
+}
+
+.footer_logo{
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.cr{
+    font-size: 12px;
+}
+
+.footer_column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.trust{
+    display: flex;
+    align-items: center;
+    max-width: 26%;
+    width: 26%;
+}
+
+.trust_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 12px;
+    height: 100%;
+    max-width: 120px;
+    margin-left: 10px;
+}
+
+.trust_logo img{
+    width: 100%;
+}
+
+.link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.cr_mobile{
+    display: none;
+}
+
+.social_medias{
+    margin-top: 15px;
+}
+
+.social_medias h3{
+    font-size: 14px;
+}
+
+.social_links{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social_links a{
+    margin-left: 15px;
+}
