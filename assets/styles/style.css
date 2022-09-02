@@ -10,28 +10,28 @@
 ul{
     list-style-type: none;
 }
-.main__container a{
+a{
+    text-decoration: none;
     color: var(--color--text--content);
     font-size:var(--medium-fontsize) ;
 }
-a{
-    text-decoration: none;
-}
-a:hover{
+.main__container a:hover{
     color: var(--color--orange);
 }
-.main__button{
+.button{
     display: flex;
-    width: 216px;
-    height: 52px;
-    font-size:var(--mid--fontsize);
+    width: 218px;
+    height: 55px;
     font-weight: 500;
-    background-color:var(--colror--white);
-    color: var(--color--orange);
-    margin-top: 2rem;
+    background-color:var(--color--orange);
     border-radius: 12px;
+    margin-top:2%;
     justify-content: center;
     align-items: center;
+}
+.mac-link{
+    font-size:var(--mid--fontsize);
+    color:var(--color--white);
 }
 .main__container a:hover{
     color:var(--color--orange);
@@ -109,5 +109,264 @@ a:hover{
         background-color: var(--color--orange);
         border-radius: 8px;
         padding: 7px 40px;
+    }
+}
+/* streetimage */
+.homepage__streetimage{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+}
+.homepage__streetimage_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20px;
+    background-image: linear-gradient(51deg,rgba(23,26,60,.7) 5%,rgba(23,26,60,.3) 95%);
+}
+.streetimage_downloadapp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.downloadapp_items{
+    margin-bottom: 3%;
+    border-radius: 10px;
+    border: 1px solid var(--color--background--header);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 24rem;
+}
+.homepage__streetimage_content h1,h3{
+    color: var(--color--border--bottom);
+    width: 35rem;
+    margin-left: 28%;
+    padding-right: 0;
+    margin-top: 1%;
+}
+.homepage__streetimage_content h3{
+    font-size: var(--large-fontsize);
+    margin-bottom: 4%;
+    font-weight: 300;
+}
+.homepage__streetimage_content h1{
+    font-size: var(--xlarge-fontsize);
+    margin-top: 5%;
+}
+.streetimage_downloadapp a{
+    display: inline-block;
+    padding: 15px;
+    font-size: var(--medium-fontsize);
+    color: var(--primary--textcolor);
+}
+.style_firstline{
+    background-color: var(--color--background--header);
+}
+.style_secondline a{
+    color: var(--color--background--header);
+}
+/* icon */
+.streetimage_icons{
+    margin-right: 5%;
+}
+@media screen and (max-width:767px){
+    .homepage__streetimage{
+        background-image: url(../images/banner-mobile.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+    }
+    .homepage__streetimage_content{
+        margin: 50px 0;
+        padding:30px 18px;
+        width: 32rem;
+    }
+    .homepage__streetimage_content h3{
+        font-size: var(--medium-fontsize);
+        font-weight: 600;
+        padding-bottom: 8%;
+    }
+    .homepage__streetimage_content h1{
+        font-size: var(--large-fontsize);
+        font-weight: bold;
+    }
+}
+@media screen and (min-width:767px){
+    .homepage__streetimage{
+        height: 40rem;
+        background-image: url(../images/banner.jpg);
+        align-items: center;
+        padding-right: 8%;
+        position: relative;
+    }
+    .homepage__streetimage_content{
+        width: 52rem;
+        height: 30rem;
+    }
+    .streetimage_downloadapp{
+        justify-content: space-around;
+        margin-bottom: 11%;
+    }
+}
+@media screen and (min-width:1025px){
+    .homepage_mobileimage{
+        position: absolute;
+        left:10%;
+        top:20%;
+        background-image: url(../images/mockup-phone.png);
+        background-size: cover;
+        width: 40rem;
+        height: 50rem;
+    }
+}
+/* tapsi service */
+.side-space{
+    padding-right:5%;
+}
+.tapsi__services{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+.tapsi__services_items{
+    overflow-x: scroll;
+    display: flex;
+    width: 100%;
+    padding-bottom:4%;
+}
+.tapsi__services h1{
+    font-size: var(--large-fontsize);
+    padding-bottom: 5%;
+}
+.tapsi__services_content h2{
+    font-weight: 600;
+    font-size: var(--medium-fontsize);
+    padding-top:3%;
+}
+.cars__item img{
+    width: 10rem;
+    height:auto;
+}
+.cars__item p{
+    text-align: center;
+    font-size: var(--small-fonsize);
+}
+.description__tapsi_service{
+    display: flex;
+    margin:3% 7%;
+    border-bottom:1px solid var(--color--border--bottom);
+}
+.tapsi__services_content p{
+    font-size: var(--small-fonsize);
+    color: var();
+}
+.under-space{
+    padding-bottom:8%;
+}
+@media screen and (min-width:767px){
+    .tapsi__services{
+        padding-right:7%;
+    }
+    .tapsi__services_items{
+        width:85%;
+        overflow-x: hidden;
+        justify-content:space-around;
+    }
+    .tapsi__services h1{
+        font-size: var(--xlarge-fontsize);
+        padding-top:5%;
+    }
+    .description__tapsi_service{
+        padding-right:5%;
+    }
+    .tapsi__services_content h2{
+        font-size: var(--large-fontsize);
+    }
+    .tapsi__services_content p{
+        font-size: var(--mid--fontsize);
+        line-height: 2;
+    }
+    .cars__item p{
+        font-size: var(--medium-fontsize);
+    }
+    .tapsi__services_content{
+        width:50%;
+    }
+    .big__car{
+        display:flex;
+        width: 50%;
+    }
+    .big__car img{
+        width: 80%;
+        height: 100%;
+    }
+}
+/* Special services for businesses */
+.main__special_services{
+    padding-top:5%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.picture_mac{
+    display: flex;
+    width:90%;
+}
+.picture_mac img{
+    width:100%;
+    height:100%;
+    padding-right:5%;
+}
+.mac-book{
+    padding-left:10%;
+}
+.main__special_content{
+    width:100%;
+}
+.main__special_content h1{
+    font-size: var(--large-fontsize);
+    margin:7% 0;
+}
+.main__special_content p{
+    font-size: var(--medium-fontsize);
+    color: var(--color--text--content);
+}
+.special_link{
+    display: flex;
+    align-items: center;
+}
+.special_link a{
+    padding:4% 1%;
+    color: var(--color--orange);
+    font-size:var(--mid--fontsize);
+}
+.same-position2{
+    flex-direction:row;
+}
+@media screen and (min-width:767px){
+    .same-position{
+        flex-direction:row-reverse;
+    }
+    .dif-position{
+        flex-direction: row;
+    }
+    .same-sizepicture{
+        width:50%;
+    }
+    .main__special_content{
+        width:50%;
+        padding-bottom:12%;
+        padding-right:7%;
+    }
+    .main__special_content h1{
+        font-size:var(--xlarge-fontsize);
+    }
+    .main__special_content p{
+        font-size: var(--mid--fontsize);
+        padding-left:12%;
     }
 }

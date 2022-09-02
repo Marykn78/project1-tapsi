@@ -12,3 +12,28 @@ burgerMenuToggle.addEventListener("click",function(e){
         burgerMenuToggle.innerHTML = closeIcon;
     }
 });
+// tab homepage
+tab_homepage = document.getElementsByClassName("tab_homepage");
+tab_homepage[0].style.display = "flex";
+tab_homepage[1].style.display = "none";
+tab_homepage[2].style.display = "none";
+tab_homepage[3].style.display = "none";
+tab_homepage[4].style.display = "none";
+tab_homepage[5].style.display = "none";
+tab_homepage[6].style.display = "none";
+tab_homepage[7].style.display = "none";
+tab_homepage[8].style.display = "none";
+function showTapsiService(evt, carname) {
+    var i, tab_homepage, cars__item;
+    tab_homepage = document.getElementsByClassName("tab_homepage");
+    tab_homepage[0].style.display = "flex";
+    for (i = 0; i < tab_homepage.length; i++) {
+        tab_homepage[i].style.display = "none";
+    }
+    cars__item = document.getElementsByClassName("cars__item");
+    for (i = 0; i < cars__item.length; i++) {
+        cars__item[i].className = cars__item[i].className.replace(" active", "");
+    }
+    document.getElementById(carname).style.display = "flex";
+    evt.currentTarget.className += " active";
+}
