@@ -95,3 +95,73 @@
 .social_links a{
     margin-left: 15px;
 }
+@media only screen and (max-width: 766px) {
+    
+    .footer{
+        padding: 5% 2%;
+    }
+
+    .footer_column{
+        width: 100%;
+        margin: 12px auto;
+    }
+
+    .footer_column h6{
+        font-size: 20px!important;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .footer_container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cr{
+        display: none;
+    }
+
+    .brand_container{
+        width: 100%;
+        margin: 12px auto;
+    }
+
+    .brand_container h3{
+        font-size: 12px!important;
+    }
+
+    .cr_mobile{
+        color: #acacac;
+        display: flex;
+        padding-top: 20px;
+    }
+
+    .trust{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .trust_logo{
+        height: auto;
+    }
+
+    .social_links{
+        align-items: stretch;
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        max-width: 100%;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .social_medias h3{
+        display: none;
+    }
+}
