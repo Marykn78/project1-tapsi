@@ -59,6 +59,7 @@ div{
 .job_main__content__p{
   line-height: 30px;
   font-weight:400 ;
+  color: var(--color--white);
   /* white-space: wrap; */
   font-size: 16px;
 }
