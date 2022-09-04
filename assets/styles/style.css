@@ -12,6 +12,8 @@ ul{
 }
 a{
     text-decoration: none;
+}
+.main__container a{
     color: var(--color--text--content);
     font-size:var(--medium-fontsize) ;
 }
@@ -257,7 +259,6 @@ a{
 }
 .tapsi__services_content p{
     font-size: var(--small-fonsize);
-    color: var();
 }
 .under-space{
     padding-bottom:8%;
@@ -461,6 +462,9 @@ a{
 }
 .advantage_button a{
     color:var(--color--white);
+}
+.advantage_homepage_btn a{
+    font-size: var(--mid--fontsize);
 }
 @media screen and (min-width:767px) {
     .advantage__image{

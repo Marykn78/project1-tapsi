@@ -8,7 +8,9 @@
     background-color: #000;
     color: #fff;
 }
-
+.footer a{
+    font-size:1.4rem;
+}
 .footer_container{
     display: flex;
     justify-content: space-between;
