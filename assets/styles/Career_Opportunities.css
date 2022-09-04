@@ -1,5 +1,11 @@
 @import "general.css";
 
+:root{
+  --xlarg--fontweight:700;
+  --color--job--contentitem--btn: #9b9b9b;
+  --color--job--contentitem--background--btn--hover:#f6fafd;
+  --color--job--contentitem--background--btn--active:#c0c3c5;
+}
 
 body{
   margin: 0;
