@@ -457,7 +457,7 @@ a{
     justify-content:space-evenly;
 }
 .advantage_button .button{
-    background-color:var(--color--blue);
+    background-color:#0065dc;
 }
 .advantage_button a{
     color:var(--color--white);
@@ -502,7 +502,7 @@ a{
     border-radius:20px;
 }
 .homepage__description_blog h2{
-    color: var(--color--job--contentitem--btn);
+    color:#9b9b9b;
     font-weight:100;
 }
 .homepage__description_blog P{
