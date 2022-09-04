@@ -8,6 +8,10 @@
     color: #fff;
 }
 
+.footer a{
+    font-size: 1.4rem;
+}
+
 .footerContainer{
     display: flex;
     flex-direction: column;
