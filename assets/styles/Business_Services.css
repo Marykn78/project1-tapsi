@@ -1,0 +1,575 @@
+@font-face {
+    font-family: dana;
+    src: url(/font/dana-regular.woff2);
+}
+
+*{
+    font-family: dana;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.bgSection{
+    background: #4188d8 url(../images/images-1/banner-bg.png) 50%;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*mobile*/
+    height: calc(100vh - 60px);
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.title{
+    color: #fff;
+    margin-bottom: 20%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.subtitleWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.subtitle{
+    color: #fff;
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.citiesSection{
+    display: none;
+}
+
+.contentSection{
+    padding: 30px 0;
+}
+
+.veryMain{
+    padding: 0 15px 0 15px;
+}
+
+.titleContainer{
+    font-size: 20px;
+    padding: 0 15px 0 15px;
+    font-weight: 100;
+}
+
+.firstContentContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.firstContent{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#img1{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.firstContentContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.firstContentTitle{
+    font-weight: 100;
+    color: #4d4d4d;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.firstContentDesc{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.desc1Features{
+    font-size: 18px;
+    color: #333;
+    margin: 56px 0;
+}
+
+.desc1Features ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.liWrapper{
+    font-size: 28px;
+    display: flex;
+    justify-content: right;
+    margin: 15px 0;
+}
+
+.orangeSquare{
+    background-color: #ff5722;
+    height: 16px;
+    width: 16px;
+    margin-left: 23px;
+    margin-top: 4px;
+    flex-shrink: 0;
+}
+
+.linkWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+#coLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff5722;
+    color: #fff;
+    margin-left: 15px;
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    text-decoration: none;
+    /*mobile*/
+    margin-bottom: 9px;
+    line-height: 24px;
+}
+
+.secondContent{
+    display: flex;
+    flex-direction: column;
+}
+
+#img2{
+    max-width: 100%;
+    height: auto;
+}
+
+.secondContentContainer{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.secondContentTitle{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.creditTitle{
+    font-weight: 100;
+    color: #4d4d4d;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.secondContentDesc{
+    text-align: justify;
+    font-weight: 100;
+    color: #333;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.creditLink{
+    display: flex;
+    flex-direction: column;
+}
+
+#creditbtn{
+    align-items: center;
+    background-color: #ff5722;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    text-decoration: none; 
+    /*mobile*/
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.voucher{
+    color: #4d4d4d;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+.voucherDesc{
+    text-align: justify;
+    color: #333;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.voucherFeatures ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.voucherFeatures{
+    display: flex;
+    justify-content: right;
+    margin: 15px 0;
+    color: #333;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.moreInfo{
+    color: #333;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.moreInfo a{
+    text-decoration: none;
+}
+
+.thirdContent{
+    margin-top: 85px;
+}
+
+.videoTitle{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: #4d4d4d;
+}
+
+.infoTitle{
+    color: #4d4d4d;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoDesc{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.text{
+    color: #333;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.contact{
+    font-size: 20px;
+    color: #333;
+    margin-left: 20px;
+}
+
+.up{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+
+.p1{
+    font-size: 28px;
+    display: flex;
+}
+
+.p2{
+    font-size: 28px;
+    display: flex;
+}
+
+.phone{
+    font-size: 20px;
+}
+
+.email{
+    font-size: 20px;
+}
+
+.icon{
+    float: right;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 22px;
+}
+
+.registerForm{
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+}
+
+.inputLable{
+    font-size: 18px;
+    align-self: flex-start;
+    color: #9b9b9b;
+    margin-bottom: 3px;
+}
+
+input{
+    background-color: #ececec;
+    border: none;
+    border-radius: 5px;
+    direction: rtl;
+    height: 50px;
+    margin-bottom: 16px!important;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.bttn3{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.btn3Wrapper{
+    width: 100%;
+}
+
+.btn3{
+    align-items: center;
+    background-color: #ff5722;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    padding: 3% 2%;
+    text-decoration: none; 
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .veryMain{
+        width: 1170px;
+    }
+}
+
+
+@media only screen and (min-width: 767px) {
+    .bgSection{
+        height: 540px;
+    }
+    
+    .center{
+        padding: 0 15%;
+    }
+    
+    .title{
+        font-size: 46px;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .subtitleWrapper{
+        flex-direction: row;
+    }
+    
+    .subtitle{
+        font-size: 24px;
+        width: 25%;
+    }
+    
+ /*cities section*/  
+
+    .citiesSection{
+        display: block;
+        background: #f8f8f9 url(../images/images-1/map-back.svg) no-repeat;
+        padding: 20px 0;
+    }
+    
+    .container{
+        width: 1170px;
+        display: table;
+        content: " ";
+        padding: 0 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .citiesWrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+    }
+    
+    .city{
+        font-size: 18px;
+        margin: 15px 0;
+        width: 12%;
+    }
+    
+    .name{
+        color: #333;
+        font-weight: 100;
+    }
+    
+    .englishName{
+        color: #333;
+        font-size: 14px;
+        font-weight: 100;
+        letter-spacing: 5px;
+    }
+    
+    
+    
+    .contentSection{
+        padding: 100px 0;
+    }
+    
+    .veryMain{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+    
+    .titleContainer{
+        font-size: 40px;
+        font-weight: 200;
+    }
+    
+    .contentContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .firstContent{
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 85px auto;
+    }
+    
+    .firstContentContainer{
+        flex-basis: 50%;
+    }
+    
+    .firstContentTitle{
+        font-size: 36px;
+    }
+    
+    .linkWrapper{
+        flex-direction: row;
+    }
+    
+    #coLink{
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+    
+    .secondContent{
+        flex-direction: row;
+    }
+    
+    .secondContentTitle{
+        font-size: 36px;
+    }
+    
+    .creditTitle{
+        font-size: 28px;
+    }
+
+    .secondContentDesc{
+        font-size: 18px;
+    }
+    
+    .creditLink{
+        flex-direction: row;
+    }
+    
+    #creditbtn{
+        font-size: 28px;
+    }
+    
+    .voucher{
+        font-size: 28px;
+    }
+    
+    .voucherDesc{
+        font-size: 18px;
+    }
+    
+    .voucherFeatures{
+        font-size: 18px;
+    }
+    
+    .moreInfo{
+        font-size: 18px;
+    }
+    
+    .moreInfo a{
+        font-size: 20px;
+    }
+    
+    .videoTitle{
+        font-size: 36px;
+    }
+    
+    .infoTitle{
+        font-size: 36px;
+        padding-top: 100px;
+    }
+    
+    .infoContainer{
+        flex-direction: row;
+    }
+    
+    .infoDesc{
+        width: 50%;
+    }
+    
+    .registerForm{
+        border-right: 2px solid #ececec ;
+    }
+    
+    .bttn3{
+        flex-direction: row;
+    }
+
+    .btn3Wrapper{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+}
