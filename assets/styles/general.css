@@ -2,6 +2,10 @@
     font-family: dana;
     src: url(../fonts/dana-regular.woff2);
 }
+@font-face {
+    font-family: yekan;
+    src: url(../fonts/iranyekanwebregular.woff2);
+}
 :root{
     --color--orange:#ff5722;
     --color--white:#ffffff;
