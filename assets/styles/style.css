@@ -344,9 +344,7 @@ a{
     color: var(--color--orange);
     font-size:var(--mid--fontsize);
 }
-.same-position2{
-    flex-direction:row;
-}
+
 @media screen and (min-width:767px){
     .same-position{
         flex-direction:row-reverse;
@@ -368,5 +366,182 @@ a{
     .main__special_content p{
         font-size: var(--mid--fontsize);
         padding-left:12%;
+    }
+}
+
+/* tehranimage */
+/* .main_section_tehranbackground{
+    width:100%;
+    height:100vh;
+    background-color:red;
+    z-index:-100;
+    
+} */
+/* .cover_tehranbackground{
+    width:100%;
+    height:30%;
+    background-color: var(--color--orange);
+    z-index:-100;
+} */
+.section_tehranimage{
+    display:flex;
+    gap: 2px;
+    /* padding:10%; */
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    height:50%;
+    margin-top:5%;
+    background-image:url(../images/parallax.jpeg);
+    background-size:cover;
+}
+.tehranimage__title{
+    display:flex;
+    text-align: center;
+    padding:3% 0;
+    /* margin:3%; */
+    flex-wrap:wrap;
+    width:90%;
+    height:50%;
+}
+.hidden_homepage{
+    display: none;
+}
+.show_hidden:hover + .hidden_homepage{
+    display:flex;
+}
+.tehranimage__title p,h3{
+    font-size:var(--mid--fontsize);
+    color:var(--color--white);
+    padding-right:2%;
+}
+.tehranimage__title h3{
+    font-weight:900;
+}
+@media screen and (min-width:767px) {
+    .section_tehranimage{
+        flex-direction: row;
+        padding:4%;
+    }
+    .tehranimage__title{
+        border-left:2px solid var(--color--white);
+        /* display:flex; */
+        width:25%;
+        /* flex-wrap:wrap;         */
+    }
+    #noborder_homepage{
+        border:none;
+    }
+}
+
+
+/* tapsi for derivers */
+.tapsi__drivers{
+    align-items:flex-start;
+}
+.advantage__image{
+    width:100%;
+}
+.advantage__image img{
+    width:70%;
+    height:50%;
+    margin-right:10%;
+    border-radius:15px;
+}
+.drivers_club , .advantage__internet_taxi h1,h2{
+    font-size:var(--mid--fontsize);
+    padding-bottom:4%;
+}
+.advantage__internet_taxi h2,p,li{
+    color:var(--color--text--content);
+}
+.advantage__internet_taxi p,li{
+    font-size: var(--medium-fontsize);
+    line-height:2.5;
+}
+.advantage__internet_taxi{
+    padding:3%;
+    flex-direction:column;
+}
+.advantage__internet_taxi h2{
+    font-weight:200;
+}
+.advantage_button{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.advantage_button .button{
+    background-color:var(--color--blue);
+}
+.advantage_button a{
+    color:var(--color--white);
+}
+@media screen and (min-width:767px) {
+    .advantage__image{
+        width:50%;
+    }
+    .advantage__internet_taxi{
+        width:50%;
+        padding-right:10%;
+    }
+    .advantage__internet_taxi h1{
+        font-size:var(--xlarge-fontsize);
+    }
+    .drivers_club ,.advantage__internet_taxi h2{
+        font-size:var(--large-fontsize);
+    }
+    .advantage__internet_taxi p,li{
+        font-size:var(--mid--fontsize);
+    }
+    .advantage_button{
+        flex-direction: row;
+    }
+}
+
+/* homepage blog */
+.homepage__blog_items{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+}
+.homepage__title_blog{
+    display:block;
+}
+.homepage__blog h1{
+    font-size:var(--large-fontsize);
+}
+.homepage_blogimage img{
+    width:90%;
+    border-radius:20px;
+}
+.homepage__description_blog h2{
+    color: var(--color--job--contentitem--btn);
+    font-weight:100;
+}
+.homepage__description_blog P{
+    font-size: var(--medium-fontsize);
+    color: var(--primary--textcolor);
+}
+@media screen and (min-width:767px) {
+    .homepage__blog_items{
+        flex-direction:row;
+        padding:0 8%;
+    }
+    .homepage__description_blog{
+        width:30%;
+        padding:2%;
+    }
+    .homepage__description_blog:hover{
+        box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.082), 0 2px 10px 0 rgba(0, 0, 0, 0.066);
+    }
+    .homepage__blog h1{
+        padding:5% 10%;
+        font-size: var(--xlarge-fontsize);
+    }
+    .homepage__blog h2{
+        font-size:var(--large-fontsize);
     }
 }
