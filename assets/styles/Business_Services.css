@@ -116,6 +116,7 @@
 }
 
 .liWrapper{
+    font-size: 28px;
     display: flex;
     justify-content: right;
     margin: 15px 0;
@@ -304,11 +305,21 @@
 }
 
 .p1{
+    font-size: 28px;
     display: flex;
 }
 
 .p2{
+    font-size: 28px;
     display: flex;
+}
+
+.phone{
+    font-size: 20px;
+}
+
+.email{
+    font-size: 20px;
 }
 
 .icon{
@@ -328,6 +339,7 @@
 }
 
 .inputLable{
+    font-size: 18px;
     align-self: flex-start;
     color: #9b9b9b;
     margin-bottom: 3px;
@@ -429,10 +441,12 @@ input{
     }
     
     .name{
+        color: #333;
         font-weight: 100;
     }
     
     .englishName{
+        color: #333;
         font-size: 14px;
         font-weight: 100;
         letter-spacing: 5px;
@@ -480,7 +494,7 @@ input{
     }
     
     #coLink{
-        font-size: 20px;
+        font-size: 28px;
         margin-bottom: 0;
     }
     
@@ -505,7 +519,7 @@ input{
     }
     
     #creditbtn{
-        font-size: 20px;
+        font-size: 28px;
     }
     
     .voucher{
@@ -522,6 +536,10 @@ input{
     
     .moreInfo{
         font-size: 18px;
+    }
+    
+    .moreInfo a{
+        font-size: 20px;
     }
     
     .videoTitle{
