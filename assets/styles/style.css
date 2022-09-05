@@ -568,22 +568,22 @@ a{
 /*download page middle section*/
 .takeTapsi{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .takeTapsiContainer{
     display: flex;
-    align-items: stretch;
-    width: 75%;
+    width: 1170px;
     margin: 50px 0;
-    height: auto;
 }
 
 .rightParagraph{
     display: flex;
     justify-content: center;
     margin-left: 25px;
-    width: 33.33%;
+    width: 33.3333%;
 }
 
 .pTapsi{
@@ -598,7 +598,7 @@ a{
 .webTapsi{
     display: flex;
     flex-direction: column;
-    width: 33.33%;
+    width: 33.3333%;
     height: 100%;
     margin-left: 25px;
 }
@@ -616,7 +616,7 @@ a{
 
 .pTitle h4{
     font-size: 11px;
-    color: rgb(80, 80, 80);
+    color: #9b9b9b;
 }
 
 .pDescription{
@@ -647,6 +647,58 @@ a{
 .phoneTapsi{
     display: flex;
     flex-direction: column;
-    width: 33.33%;
+    width: 33.3333%;
     margin-left: 25px;
+}
+
+.videoBoxContainer{
+    background-color: #f8f8f9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.videoBoxWrapper{
+    display: flex;
+    flex-direction: row;
+    width: 1170px;
+    margin: 50px 0;
+}
+
+.videoContainer{
+    width: 355px;
+    height: 240px;
+}
+
+.videoContainer video{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.videoDesc h3{
+    font-size: 20px;
+    color: #333;
+    margin: 15px 0;
+}
+
+.videoDesc p{
+    color: #9b9b9b;
+    font-size: 16px;
+}
+
+.rightOne{
+    width: 33.3333%;
+}
+
+.middleOne{
+    width: 33.3333%;
+}
+
+.leftOne{
+    width: 33.3333%;
+}
+
+.rightOne h2{
+    font-size: 25px;
 }
