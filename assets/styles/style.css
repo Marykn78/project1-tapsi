@@ -419,7 +419,6 @@ a{
     }
 }
 
-
 /* tapsi for derivers */
 .tapsi__drivers{
     align-items:flex-start;
@@ -433,11 +432,11 @@ a{
     margin-right:10%;
     border-radius:15px;
 }
-.drivers_club , .advantage__internet_taxi h1,h2{
+.drivers_club , .advantage__internet_taxi h1{
     font-size:var(--mid--fontsize);
     padding-bottom:4%;
 }
-.advantage__internet_taxi h2,p,li{
+.advantage__internet_taxi h2, .advantage__internet_taxi li, .advantage__internet_taxi p{
     color:var(--color--text--content);
 }
 .advantage__internet_taxi p,li{
