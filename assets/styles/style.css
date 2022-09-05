@@ -569,13 +569,132 @@ a{
 .takeTapsi{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .takeTapsiContainer{
     display: flex;
-    width: 1170px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.pTapsi{
+    font-size: 24px;
+    margin: 25px 0;
+}
+
+.videoBoxWrapper{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.phoneTapsi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.webTapsi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.pImage{
+    width: 46px;
+    
+}
+
+.pTitle{
+    margin-bottom: 25px;
+}
+
+.pTitle h3{
+    font-size: 25px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.pTitle h4{
+    font-size: 12px;
+    color: #9b9b9b;
+}
+
+.pDescription{
+    text-align: center;
+    font-size: 22px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.pDescription p{
+    height: 130px;
+    overflow: hidden;
+}
+
+.linkWrapper1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+    background-color: #ff5722;
+    padding: 10px 15px;
+    border-radius: 3px;
+    max-width: 175px;
+    text-align: center;
+}
+
+.videoBoxContainer{
+    width: 100%;
+
+    background-color: #f8f8f9;
+}
+
+.rightOne h2{
+    font-size: 24px;
+    color: #333;
+    margin: 20px;
+}
+
+.videoDesc{
+    text-align: center;
+}
+
+.videoDesc h3{
+    font-size: 20px;
+    color: #333;
+}
+
+.videoDesc p{
+    font-size: 16px;
+    color: #979797;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 767px) {
+    
+.takeTapsi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.takeTapsiContainer{
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 90%;
     margin: 50px 0;
 }
 
@@ -661,7 +780,7 @@ a{
 .videoBoxWrapper{
     display: flex;
     flex-direction: row;
-    width: 1170px;
+    max-width: 90%;
     margin: 50px 0;
 }
 
@@ -701,4 +820,6 @@ a{
 
 .rightOne h2{
     font-size: 25px;
+}
+
 }
