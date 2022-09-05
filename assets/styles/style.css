@@ -534,33 +534,38 @@ a{
     }
 }
 /* map */
-/* @media screen and (min-width:767px){
-    .container{
-        width: 1170px;
-        display: table;
-        content: " ";
-        padding: 0 15px 0 15px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .cities_section{
-        display:flex;
+@media screen and (min-width:767px) {
+    .citiesSection{
+        display: block;
+        height:auto;
         background: #f8f8f9 url(../images/cars/map-back.svg) no-repeat;
         padding: 20px 0;
     }
-    .cities_wrapper{
+    .citiesContainer{
+        width:90%;
+        margin-right:50px;
+        padding-right:30px;
+    }
+    .citiesWrapper{
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
-        flex-basis: 100%;
     }
     .city{
-        font-size: 18px;
-        margin: 15px 0;
+        display: flex;
+        flex-wrap: wrap;
+        padding:5px;
         width: 12%;
     }
-    .name,.english_name{
-        font-weight: 100;
-        color: var(--primary--textcolor);
+    .citiesContainer h1{
+        font-size:var(--xlarge-fontsize);
+        padding:16px 20px;
     }
-} */
+    .name,.englishName{
+        color:black;
+        font-weight: 100;
+    }
+    .englishName{
+        font-size: 14px;
+        letter-spacing: 5px;
+    }
+}
