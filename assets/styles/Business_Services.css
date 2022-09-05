@@ -144,7 +144,7 @@
     color: #fff;
     margin-left: 15px;
     padding: 5px 15px;
-    font-size: 16px;
+    font-size: 25px;
     border-radius: 3px;
     text-decoration: none;
     /*mobile*/
@@ -207,7 +207,7 @@
     text-decoration: none; 
     /*mobile*/
     line-height: 24px;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .voucher{
@@ -371,7 +371,7 @@ input{
     border-radius: 3px;
     color: #fff;
     display: flex;
-    font-size: 20px;
+    font-size: 25px;
     justify-content: center;
     padding: 3% 2%;
     text-decoration: none; 
