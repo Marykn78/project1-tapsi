@@ -412,49 +412,37 @@ input{
     }
     
  /*cities section*/  
-
     .citiesSection{
-        display: block;
-        background: #f8f8f9 url(../images/images-1/map-back.svg) no-repeat;
+        display:block;
+        background: #f8f8f9 url(../images/cars/map-back.svg) no-repeat;
         padding: 20px 0;
     }
-    
-    .container{
-        width: 1170px;
-        display: table;
-        content: " ";
-        padding: 0 15px;
-        margin-right: auto;
-        margin-left: auto;
+    .citiesContainer{
+        width:90%;
+        margin-right:50px;
+        padding-right:30px;
     }
-    
     .citiesWrapper{
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
-        flex-basis: 100%;
     }
-    
     .city{
-        font-size: 18px;
-        margin: 15px 0;
-        width: 12%;
+        display: flex;
+        flex-direction: column;
+        padding:5px;
+        width: 15%;
     }
-    
-    .name{
-        color: #333;
+    .name,.englishName{
+        font-size: 20px;
+        color:black;
         font-weight: 100;
     }
-    
     .englishName{
-        color: #333;
         font-size: 14px;
-        font-weight: 100;
         letter-spacing: 5px;
     }
-    
-    
-    
+
+
     .contentSection{
         padding: 100px 0;
     }
