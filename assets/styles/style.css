@@ -564,3 +564,89 @@ a{
         color: var(--primary--textcolor);
     }
 } */
+
+/*download page middle section*/
+.takeTapsi{
+    display: flex;
+    justify-content: center;
+}
+
+.takeTapsiContainer{
+    display: flex;
+    align-items: stretch;
+    width: 75%;
+    margin: 50px 0;
+    height: auto;
+}
+
+.rightParagraph{
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    width: 33.33%;
+}
+
+.pTapsi{
+    font-size: 25px;
+}
+
+.pImage{
+    width: 50px;
+    margin-left: 20px;
+}
+
+.webTapsi{
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    height: 100%;
+    margin-left: 25px;
+}
+
+.pTitle{
+    display: flex;
+    flex-direction: row;
+}
+
+.pTitle h3{
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.pTitle h4{
+    font-size: 11px;
+    color: rgb(80, 80, 80);
+}
+
+.pDescription{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.pDescription p{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+
+.linkWrapper1{
+    font-size: 15px;
+    color: #fff;
+    background-color: #ff5722;
+    padding: 10px 15px;
+    border-radius: 3px;
+    max-width: 150px;
+    text-align: center;
+}
+
+.phoneTapsi{
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    margin-left: 25px;
+}
