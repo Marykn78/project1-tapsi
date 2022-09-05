@@ -205,3 +205,272 @@ ul>li>img{
 
 }
 /* section1 end */
+
+
+.takeTapsi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.takeTapsiContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+.pTapsi{
+  font-size: 24px;
+  margin: 25px 0;
+}
+
+.videoBoxWrapper{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.videoContainer video{
+  width: 100%;
+}
+
+.phoneTapsi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.webTapsi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pImage{
+  width: 46px;
+  
+}
+
+.pTitle{
+  margin-bottom: 25px;
+}
+
+.pTitle h3{
+  font-size: 25px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.pTitle h4{
+  font-size: 12px;
+  color: #9b9b9b;
+}
+
+.pDescription{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 22px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+.pDescription p{
+  height: 130px;
+  overflow: hidden;
+}
+
+.linkWrapper1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+  color: #fff;
+  background-color: #ff5722;
+  padding: 10px 15px;
+  border-radius: 3px;
+  max-width: 175px;
+  text-align: center;
+}
+
+.videoBoxContainer{
+  width: 100%;
+  background-color: #f8f8f9;
+}
+
+.rightOne h2{
+  font-size: 24px;
+  color: #333;
+  margin: 20px;
+}
+
+.videoDesc{
+  text-align: center;
+}
+
+.videoDesc h3{
+  font-size: 20px;
+  color: #333;
+}
+
+.videoDesc p{
+  font-size: 16px;
+  color: #979797;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 767px) {
+  
+.takeTapsi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.takeTapsiContainer{
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  max-width: 90%;
+  margin: 50px 0;
+}
+
+.rightParagraph{
+  display: flex;
+  justify-content: center;
+  margin-left: 25px;
+  width: 33.3333%;
+}
+
+.pTapsi{
+  font-size: 25px;
+}
+
+.pImage{
+  width: 50px;
+  margin-left: 20px;
+}
+
+.webTapsi{
+  display: flex;
+  flex-direction: column;
+  width: 33.3333%;
+  height: 100%;
+  margin-left: 25px;
+}
+
+.pTitle{
+  display: flex;
+  flex-direction: row;
+}
+
+.pTitle h3{
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.pTitle h4{
+  font-size: 11px;
+  color: #9b9b9b;
+}
+
+.pDescription{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.pDescription p{
+  font-size: 15px;
+  font-weight: 100;
+}
+
+
+
+.linkWrapper1{
+  font-size: 15px;
+  color: #fff;
+  background-color: #ff5722;
+  padding: 10px 15px;
+  border-radius: 3px;
+  max-width: 150px;
+  text-align: center;
+}
+
+.phoneTapsi{
+  display: flex;
+  flex-direction: column;
+  width: 33.3333%;
+  margin-left: 25px;
+}
+
+.videoBoxContainer{
+  background-color: #f8f8f9;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.videoBoxWrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  max-width: 90%;
+  margin: 50px 0;
+  gap: 15px;
+
+}
+
+.videoContainer{
+  width: 100%;
+  height: 240px;
+}
+
+.videoContainer video{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.videoDesc h3{
+  font-size: 20px;
+  color: #333;
+  margin: 15px 0;
+}
+
+.videoDesc p{
+  color: #9b9b9b;
+  font-size: 16px;
+}
+
+.rightOne{
+  width: 33.3333%;
+}
+
+.middleOne{
+  width: 33.3333%;
+}
+
+.leftOne{
+  width: 33.3333%;
+}
+
+.rightOne h2{
+  font-size: 25px;
+}
+
+}
