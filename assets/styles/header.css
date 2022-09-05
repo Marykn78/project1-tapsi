@@ -1,0 +1,112 @@
+@import url(general.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-size: 62.5%;
+    font-family: dana,yekan;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.main__container a{
+    color: var(--color--text--content);
+    font-size:var(--medium-fontsize) ;
+}
+.main__container a:hover{
+    color: var(--color--orange);
+}
+.main__tapsidownload a:hover{
+    color:var(--color--white);
+}
+.button{
+    display: flex;
+    width: 218px;
+    height: 55px;
+    font-weight: 500;
+    background-color:var(--color--orange);
+    border-radius: 12px;
+    margin-top:2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__header{
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+.main__container{
+    width: 100%;
+    background-color:var(--color--background--header);
+}
+.main__header__tools{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 55px;
+    border: 1px solid var(--color--border--bottom);
+}
+/*burgermenu */
+.mobile__burgermenu{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: var(--color--background--header);
+}
+.burger__menu_item{
+    padding: 10px;
+}
+/* tablet */
+.d-none{
+    display: none;
+}
+@media screen and (min-width:766px){
+    .mobile__burgermenu{
+        display: none;
+    }
+    .main__bergurmenu_icon{
+        display: none;
+    }
+    .main__header_tablet{
+        display: flex;
+        align-items: center;
+        width:auto
+    }
+    .header__tablet_items{
+        display: flex;
+        font-size: var(--medium-fontsize);
+    }
+    .tablet_item{
+        padding:0 12px;
+    }
+}
+/*desktop */
+@media screen and (min-width:991px){
+    .main__header__tools{
+        justify-content: space-around;
+    }
+    .header__tablet_items{
+        align-items: center;
+        padding-right: 70px;
+    }
+    .tablet_item{
+        padding-left: 20px;
+    }
+    .main__tapsidownload{
+        display: flex;
+        width: auto;
+    }
+    .main__tapsidownload a{
+        color:var(--color--white);
+        background-color: var(--color--orange);
+        border-radius: 8px;
+        padding: 7px 40px;
+    }
+}
